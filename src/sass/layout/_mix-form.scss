@@ -1,0 +1,27 @@
+.customers_paragraf {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.36px;
+  //   text-transform: capitalize;
+  color: $color-text-dark;
+
+  //   &::after {
+  //     content: '';
+  //     background-image: url(./img/note.svg);
+  //   }
+}
+
+.customers_title {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 1;
+  /* identical to box height, or 130% */
+
+  letter-spacing: 0.36px;
+  color: $color-text-dark;
+}
