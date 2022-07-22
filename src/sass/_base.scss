@@ -1,5 +1,5 @@
 .container {
-  width: 100%;
+  width: 1470px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -21,7 +21,7 @@
   // }
 }
 
-.section {
+section {
   padding-top: 140px;
   padding-bottom: 140px;
 }
@@ -36,6 +36,7 @@ body {
   font-style: normal;
   letter-spacing: 0.36px;
   background-color: $background-light;
+
 }
 
 html {
