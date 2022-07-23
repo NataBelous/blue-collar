@@ -1,3 +1,35 @@
 .prise {
-  background-color: $background-light-grey;
+  background: $background-light-grey;
+
+  &__label {
+    position: relative;
+    width: 159px;
+    height: 27px;
+    background: $color-text-white;
+  }
+
+  // .prise__svg {
+
+  // }
+
+  &__label-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.59;
+    color: $color-text-dark;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+  }
+
+  &::after {
+    position: absolute;
+    // content: '';
+    // left: ;
+    // display: inline-block;
+    // background-image: ;
+
+
+  }
 }
