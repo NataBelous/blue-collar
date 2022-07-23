@@ -8,10 +8,6 @@
     background: $color-text-white;
   }
 
-  // .prise__svg {
-
-  // }
-
   &__label-text {
     font-family: 'Inter';
     font-style: normal;
@@ -25,11 +21,9 @@
 
   &::after {
     position: absolute;
-    // content: '';
-    // left: ;
-    // display: inline-block;
-    // background-image: ;
-
-
+    content: '';
+    left: 20px;
+    display: inline-block;
+    background-image: url(../images/sprite.svg#icon-prise);
   }
 }
