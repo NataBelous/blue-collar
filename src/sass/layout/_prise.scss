@@ -1,6 +1,8 @@
 .prise {
   background: $background-light-grey;
   width: 1440px;
+  padding-left: 120px;
+  padding-right: 120px;
 
   &__label {
     width: 159px;
@@ -12,7 +14,7 @@
     justify-content: center;
     text-align: center;
     display: flex;
-    // margin-top: 30px;
+    margin-bottom: 23px;
   }
 
   &__svg {
@@ -34,7 +36,13 @@
   
   &__top {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__top-left {
+    margin-top: 150px;
+    margin-right: 111px;
   }
 
   &__top-title {
@@ -46,8 +54,7 @@
     color: $color-text-dark;
     letter-spacing: 0.36px;
     width: 497px;
-    // margin-top: 23px;
-    // margin-bottom: 58px;
+    margin-bottom: 58px;
   }
 
   &__top-text {
@@ -59,5 +66,7 @@
     color: $color-text-grey;
     letter-spacing: 0.36px;
     width: 585px;
+    margin-top: 180px;
+    margin-bottom: 86px;
   }
 }
