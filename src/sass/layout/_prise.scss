@@ -1,11 +1,24 @@
 .prise {
   background: $background-light-grey;
+  width: 1440px;
 
   &__label {
-    position: relative;
     width: 159px;
     height: 27px;
     background: $color-text-white;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    // margin-top: 30px;
+  }
+
+  &__svg {
+    margin-right: 13px;
+    width: 22px;
+    height: 27px;
   }
 
   &__label-text {
@@ -18,12 +31,33 @@
     letter-spacing: 0.36px;
     text-transform: capitalize;
   }
+  
+  &__top {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-  &::after {
-    position: absolute;
-    content: '';
-    left: 20px;
-    display: inline-block;
-    background-image: url(../images/sprite.svg#icon-prise);
+  &__top-title {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 1.3;
+    color: $color-text-dark;
+    letter-spacing: 0.36px;
+    width: 497px;
+    // margin-top: 23px;
+    // margin-bottom: 58px;
+  }
+
+  &__top-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: $color-text-grey;
+    letter-spacing: 0.36px;
+    width: 585px;
   }
 }
