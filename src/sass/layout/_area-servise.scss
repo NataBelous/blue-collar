@@ -1,4 +1,5 @@
 .servise-section {
+  padding-top: 250px;
   background: $background-light-grey;
 }
 .servise__top-label {
@@ -69,7 +70,7 @@
   flex-wrap: wrap;
   gap: 30px;
 }
-.servise-cards {    
+.servise-cards {
   position: relative;
   width: 380px;
   height: 378px;
@@ -80,48 +81,47 @@
   padding-left: 35px;
   padding-right: 46px;
 }
-.servise-cards__images{
-    position: absolute;
-    top: 50px;
-    left: 35px;
+.servise-cards__images {
+  position: absolute;
+  top: 50px;
+  left: 35px;
 }
-.servise-cards__title{
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: calc(38/25);
-letter-spacing: 0.36px;
-text-transform: capitalize;
-color: $color-text-orange;
+.servise-cards__title {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: calc(38 / 25);
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: $color-text-orange;
 
-margin-bottom: 15px;
+  margin-bottom: 15px;
 }
-.servise-cards__text{
-    width: 299px;
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: calc(27/18);
-letter-spacing: 0.36px;
-color: #D2D2D2;
-margin-bottom: 22px;
+.servise-cards__text {
+  width: 299px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(27 / 18);
+  letter-spacing: 0.36px;
+  color: #d2d2d2;
+  margin-bottom: 22px;
 }
-.service-second-text{
-    font-size: 17px;
+.service-second-text {
+  font-size: 17px;
 }
-.servise-cards__btn{
-    font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: calc(27/18);
-letter-spacing: 0.36px;
+.servise-cards__btn {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: calc(27 / 18);
+  letter-spacing: 0.36px;
 
-color: $color-text-white;
-cursor: pointer;
-border: none;
-background: none;
-
+  color: $color-text-white;
+  cursor: pointer;
+  border: none;
+  background: none;
 }
