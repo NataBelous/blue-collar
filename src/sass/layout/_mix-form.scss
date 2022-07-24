@@ -8,10 +8,13 @@
   //   text-transform: capitalize;
   color: $color-text-dark;
 
-  //   &::after {
-  //     content: '';
-  //     background-image: url(./img/note.svg);
-  //   }
+  &::before {
+    content: ' ';
+    background-image: url(./images/mix-form.svg#icon-notebook);
+    width: 22px;
+    height: 27px;
+    margin-left: 20px;
+  }
 }
 
 .customers_title {
@@ -19,9 +22,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 45px;
-  line-height: 1;
-  /* identical to box height, or 130% */
-
+  line-height: 1.28;
   letter-spacing: 0.36px;
   color: $color-text-dark;
 }
