@@ -26,8 +26,17 @@
   padding: 0 20px;
   margin-bottom: 22px;
 
+
   &.question {
     width: 190px;
+    }
+    
+  &::before {
+    content: ' ';
+    background-image: url(../images/mix-form.svg#icon-notebook);
+    width: 22px;
+    height: 27px;
+    margin-left: 20px;
   }
 
   &.meet {
