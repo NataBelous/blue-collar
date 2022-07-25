@@ -183,7 +183,7 @@
     background-color: currentColor;
     border-radius: 50%;
     margin-right: 20px;
-    background-image: url(../images/Vector.png);
+    background-image: url(../images/mix-form/Vector.png);
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -210,6 +210,7 @@
   width: 484px;
   min-height: 150px;
   padding: 19px 0 0 44px;
+  resize: none;
 }
 
 .form_button {
