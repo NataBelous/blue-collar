@@ -1,0 +1,1 @@
+import('./javascript/slider.js');
