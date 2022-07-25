@@ -1,13 +1,32 @@
+.mix-form {
+  background-color: white;
+}
+
+.container_client {
+  display: flex;
+  padding-bottom: 110px;
+}
+.form {
+  padding-left: 45px;
+}
+
 .customers_paragraf {
+  display: flex;
+  align-items: center;
+  width: 174px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.36px;
-  //   text-transform: capitalize;
+  // text-transform: capitalize;
   color: $color-text-dark;
+  background-color: #f4f4f4;
+  padding: 0 20px;
+  margin-bottom: 22px;
 
+<<<<<<< HEAD
   // &::before {
   //   content: ' ';
   //   background-image: url(../images/mix-form.svg#icon-notebook);
@@ -15,6 +34,24 @@
   //   height: 27px;
   //   margin-left: 20px;
   // }
+=======
+
+  &.question {
+    width: 190px;
+    }
+
+  &.meet {
+    width: 146px;
+  }
+
+  &.client {
+    width: 134px;
+  }
+}
+
+.note_svg {
+  margin-right: 10px;
+>>>>>>> 0a7445285a4c4971a875469a6aa1cc0dab933882
 }
 
 .customers_title {
@@ -25,4 +62,170 @@
   line-height: 1.28;
   letter-spacing: 0.36px;
   color: $color-text-dark;
+  margin-bottom: 40px;
+}
+
+.slider_conteiner {
+  border-radius: 0;
+  border: 1px solid #dddddd;
+  padding: 41px;
+  width: 591px;
+  height: 378px;
+  background-color: #f5f5f5;
+  margin-bottom: 40px;
+}
+
+.customer_conteiner {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: 30px;
+}
+
+.customer_info {
+  margin-left: 10px;
+  width: 139px;
+  height: 56px;
+}
+
+.customer_name {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.4;
+  letter-spacing: 0.36px;
+  color: #1c2752;
+}
+
+.customer_sity {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.36px;
+  color: #7e7e7e;
+}
+
+.container_quotes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #ffb342;
+  width: 55px;
+  height: 55px;
+  margin-left: auto;
+}
+// .icon-quotes {
+//   margin-left: auto;
+// }
+
+.slider {
+  margin-top: 20px;
+  width: 500px;
+}
+
+.slider_paragraf {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.36px;
+  color: #7e7e7e;
+}
+
+.contact_conteiner {
+  width: 591px;
+  height: 330px;
+  background-color: #ffb342;
+  padding: 60px 68px 53px 40px;
+}
+
+.contact_title {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.3;
+  letter-spacing: 0.36px;
+  color: #1c2752;
+  margin-bottom: 13px;
+}
+
+.customers_text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  width: 483px;
+  letter-spacing: 0.36px;
+  color: #1c2752;
+  margin-bottom: 24px;
+}
+
+.customers_tel {
+  font-family: 'Mulish';
+  font-style: normal;
+  display: inline-flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: 0.36px;
+  color: #ffffff;
+  transition: color 300ms linear, background-color 300ms linear;
+
+  &::before {
+    content: '';
+    width: 50px;
+    height: 50px;
+    background-color: currentColor;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-image: url(../images/mix-form/Vector.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &:hover,
+  &:focus {
+    color: #7e7e7e;
+  }
+}
+
+.form_conteiner {
+  padding: 70px 40px;
+  background-color: #f4f4f4;
+}
+
+.modal_input {
+  width: 484px;
+  height: 65px;
+  margin-bottom: 25px;
+  padding: 19px 0 19px 44px;
+}
+
+.form_textarea {
+  width: 484px;
+  min-height: 150px;
+  padding: 19px 0 0 44px;
+  resize: none;
+}
+
+.form_button {
+  margin-top: 35px;
+  width: 100%;
+  height: 68px;
+  background-color: #ffb342;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.59;
+  letter-spacing: 0.36px;
+  color: #1c2752;
 }
