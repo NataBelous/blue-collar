@@ -8,13 +8,13 @@
   //   text-transform: capitalize;
   color: $color-text-dark;
 
-  &::before {
-    content: ' ';
-    background-image: url(../images/mix-form.svg#icon-notebook);
-    width: 22px;
-    height: 27px;
-    margin-left: 20px;
-  }
+  // &::before {
+  //   content: ' ';
+  //   background-image: url(../images/mix-form.svg#icon-notebook);
+  //   width: 22px;
+  //   height: 27px;
+  //   margin-left: 20px;
+  // }
 }
 
 .customers_title {
