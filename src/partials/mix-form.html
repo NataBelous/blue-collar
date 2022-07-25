@@ -1,71 +1,125 @@
-<section>
-  <div class="conteiner">
-    <div>
+<section class="mix-form">
+  <div class="container">
+    <div class="container_client">
+      <div>
         <div class="customers_container">
           <p class="customers_paragraf">
-            <!-- <svg>
+            <svg width="22px" height="27px" class="note_svg">
               <use href="./images/mix-form.svg#icon-notebook"></use>
-            </svg> -->
-            Testimonial</p>
+            </svg>
+            Testimonial
+          </p>
           <h3 class="customers_title">Customers Says</h3>
         </div>
         <div class="slider_conteiner">
-          <img src="#" alt="#" />
-          <div class="customer_info">
-            <p>Nancy luther</p>
-            <span>NewYork</span>
+          <div class="customer_conteiner">
+            <img
+              src="./images/slider1.jpg"
+              alt="#"
+              width="70px"
+              height="70px"
+            />
+            <div class="customer_info">
+              <p class="customer_name">Nancy luther</p>
+              <span class="customer_sity">NewYork</span>
+            </div>
+            <div class="container_quotes">
+              <svg class="icon-quotes" width="23px" height="17px">
+                <use href="./images/mix-form.svg#icon-quotes"></use>
+              </svg>
+            </div>
           </div>
-            <svg class="customer_photo">
-              <use></use>
-            </svg>
           <div class="slider">
-            <p>We have had several good experiences with Blue Collar team. Most recently, they replaced our 20-year-old HVAC system with a new, modern, and more efficient system & it worked fine. </p>
+            <p class="slider_paragraf">
+              We have had several good experiences with Blue Collar team. Most
+              recently, they replaced our 20-year-old HVAC system with a new,
+              modern, and more efficient system & it worked fine.
+            </p>
           </div>
         </div>
-      <div class="contact_conteiner">
-        <p>Any Question</p>
-        <h3>99.9% Customer Satisfaction Based</h3>
-        <p>If you have any questions or need help contact with our team, or call</p>
-        <a href="tel:(003) 123 456 7890">
-            <svg>
-                <use>
-                </use>
-            </svg>
-            (003) 123 456 7890</a>
+        <div class="contact_conteiner">
+          <p class="customers_paragraf question">
+            <svg width="22px" height="27px" class="note_svg">
+              <use href="./images/mix-form.svg#icon-notebook"></use></svg
+            >Any Question
+          </p>
+          <h3 class="contact_title">99.9% Customer Satisfaction Based</h3>
+          <p class="customers_text">
+            If you have any questions or need help contact with our team, or
+            call
+          </p>
+          <a href="tel:(003) 123 456 7890" class="customers_tel"
+            >(003) 123 456 7890</a
+          >
+        </div>
       </div>
-    </div>
-    <form class="form">    
-    <p>Meet Us</p>
-    <h3>Appointment Form</h3>
-    <div class="modal_field">
-        <input type="text" name="name" id="name" class="#" />
-        <svg>
-            <use></use>
-        </svg>
-    </div>
-        <div class="modal_field">
-        <input type="text" name="mail" id="mail" class="#" />
-        <svg>
-            <use></use>
-        </svg>
-    </div>
-        <div class="modal_field">
-        <input type="text" name="tel" id="tel" class="#" />
-        <svg>
-            <use></use>
-        </svg>
-    </div>
-            <div class="form_flex">
-            <label for="coment" class="#"></label>
+      <form class="form">
+        <p class="customers_paragraf meet">
+          <svg width="22px" height="27px" class="note_svg">
+            <use href="./images/mix-form.svg#icon-notebook"></use></svg
+          >Meet Us
+        </p>
+        <h3 class="customers_title">Appointment Form</h3>
+        <div class="form_conteiner">
+          <div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your name"
+              class="modal_input"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              name="mail"
+              id="mail"
+              placeholder="Your email"
+              class="modal_input"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              name="tel"
+              id="tel"
+              placeholder="Phone Number"
+              class="modal_input"
+            />
+          </div>
+          <div>
+            <label>
+              <input
+                type="date"
+                min="1990-01-01"
+                max="2022-12-12"
+                class="modal_input"
+              />
+            </label>
+          </div>
+          <div>
+            <label for="coment"></label>
             <textarea
               name="coment"
               id="coment"
               rows="8"
-              placeholder="Введите текст"
-              class="textarea-modal"
+              placeholder="Service Description"
+              class="form_textarea"
             ></textarea>
           </div>
-</form>
-  </div>     
+          <button type="button" class="form_button">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div>
+      <p class="customers_paragraf client">
+        <svg width="22px" height="27px" class="note_svg">
+          <use href="./images/mix-form.svg#icon-notebook"></use>
+        </svg>
+        Clients
+      </p>
+      <h3 class="customers_title">Our Trusted Big Clients!</h3>
+    </div>
   </div>
 </section>
