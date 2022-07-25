@@ -1,6 +1,16 @@
 .mix-form {
   background-color: white;
+
+  .container {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
 }
+
+// .container .customers {
+//   padding-left: 50px;
+//   padding-right: 50px;
+// }
 
 .container_client {
   display: flex;
@@ -11,7 +21,7 @@
 }
 
 .customers_paragraf {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   width: 174px;
   font-family: 'Inter';
@@ -26,10 +36,9 @@
   padding: 0 20px;
   margin-bottom: 22px;
 
-
   &.question {
     width: 190px;
-    }
+  }
 
   &.meet {
     width: 146px;
@@ -37,6 +46,7 @@
 
   &.client {
     width: 134px;
+    text-align: center;
   }
 }
 
@@ -53,6 +63,11 @@
   letter-spacing: 0.36px;
   color: $color-text-dark;
   margin-bottom: 40px;
+
+  &.company {
+    text-align: center;
+    margin-bottom: 61px;
+  }
 }
 
 .slider_conteiner {
@@ -197,6 +212,36 @@
   height: 65px;
   margin-bottom: 25px;
   padding: 19px 0 19px 44px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  // font-family: 'Inter';
+  // font-style: normal;
+  // font-weight: 400;
+  // font-size: 17px;
+  // line-height: 1.59;
+  // letter-spacing: 0.36px;
+  // color: #1c2752;
+  transition: border-color 300ms linear;
+
+  &:hover,
+  &:focus {
+    border-color: #ffb342;
+  }
+
+  &::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.59;
+    letter-spacing: 0.36px;
+    color: #1c2752;
+    transition: color 300ms linear;
+  }
+
+  &:hover::placeholder,
+  &:focus::placeholder {
+    color: #ffb342;
+  }
 }
 
 .form_textarea {
@@ -204,6 +249,28 @@
   min-height: 150px;
   padding: 19px 0 0 44px;
   resize: none;
+  transition: border-color 300ms linear;
+
+  &:hover,
+  &:focus {
+    border-color: #ffb342;
+  }
+
+  &::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.59;
+    letter-spacing: 0.36px;
+    color: #1c2752;
+    transition: color 300ms linear;
+  }
+
+  &:hover::placeholder,
+  &:focus::placeholder {
+    color: #ffb342;
+  }
 }
 
 .form_button {
@@ -211,11 +278,26 @@
   width: 100%;
   height: 68px;
   background-color: #ffb342;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 1.59;
-  letter-spacing: 0.36px;
-  color: #1c2752;
+  transition: color 300ms linear, background-color 300ms linear;
+
+  &:hover,
+  &:focus {
+    background-color: hsl(36, 64%, 42%);
+    color: #f5f5f5;
+  }
+}
+
+.company_top-text {
+  text-align: center;
+}
+
+.company_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -50px;
+}
+
+.company_item {
+  flex-basis: calc((100% - 8 * 50px) / 4);
+  margin: 50px;
 }
