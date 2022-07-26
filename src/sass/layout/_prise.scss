@@ -85,7 +85,7 @@
     justify-content: center;
 
 
-    &.last-child {
+    &:last-child {
       margin-right: 0;
     }
   }
@@ -143,27 +143,22 @@
     display: flex;
     margin-top: 60px;
     margin-bottom: 15px;
-    // padding-left: 120px;
-    // padding-right: 120px;
-    // display: flex;
-    // flex-wrap: wrap;
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    
     align-items: center;
     justify-content: center;
 
   }
 
-  // &__marker-botton {
-  //   width: 32px;
-  //   height: 32px;
-  //   margin-right: 15px;
-  // }
 
   &__text-list {
-    margin-right: 67px;
+    margin-right: 99px;
     position: relative;
 
-    &.last-child {
-      margin-right: 0;
+    &:last-child {
+    margin-right: 0;
     }
   }
 
@@ -178,7 +173,7 @@
     
     &::before {
       content: " ";
-      background-image: url(../images/price/images-vector-price.svg);
+      background-image: url(../images/price/vector-dark.svg);
       position: absolute;
       display: inline-block;
       left: -47px;
