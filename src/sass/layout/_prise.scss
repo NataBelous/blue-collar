@@ -1,8 +1,8 @@
 .prise {
   background: $background-light-grey;
-  width: 1440px;
-  padding-left: 120px;
-  padding-right: 120px;
+  // width: 1440px;
+  // padding-left: 120px;
+  // padding-right: 120px;
 
   &__label {
     width: 159px;
@@ -41,7 +41,7 @@
   }
 
   &__top-left {
-    margin-top: 150px;
+    margin-top: 30px;
     margin-right: 111px;
   }
 
@@ -66,12 +66,15 @@
     color: $color-text-grey;
     letter-spacing: 0.36px;
     width: 585px;
-    margin-top: 180px;
+    margin-top: 60px;
     margin-bottom: 86px;
   }
-  
+
   &__list {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 
   &__list-item {
@@ -98,6 +101,7 @@
     line-height: 1.5;
     color: $color-text-dark;
     letter-spacing: 0.4px;
+    margin-bottom: 7px;
   }
 
   &__list-sum {
@@ -142,14 +146,20 @@
     display: flex;
     margin-top: 60px;
     margin-bottom: 15px;
+    // padding-left: 120px;
+    // padding-right: 120px;
+    // display: flex;
+    // flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 
   }
 
-  &__marker-botton {
-    width: 32px;
-    height: 32px;
-    margin-right: 15px;
-  }
+  // &__marker-botton {
+  //   width: 32px;
+  //   height: 32px;
+  //   margin-right: 15px;
+  // }
 
   &__text-list {
     margin-right: 67px;
