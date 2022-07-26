@@ -81,6 +81,11 @@
   margin-bottom: 40px;
 }
 
+.slider_conteiner {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .slick-prev {
   position: absolute;
   top: 300px;
@@ -90,9 +95,17 @@
   border-radius: 50%;
   background-image: url(../images/mix-form/slider-left.png);
   background-repeat: no-repeat;
-  // background-size: contain;
   background-position: center;
   background-color: #f4f4f4;
+  transition: background-color 300ms linear;
+
+  &:hover,
+  &:focus {
+    background-color: #ffb342;
+    background-image: url(../images/mix-form/slider-left.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 .slick-next {
@@ -104,9 +117,22 @@
   border-radius: 50%;
   background-image: url(../images/mix-form/slider-right.png);
   background-repeat: no-repeat;
-  // background-size: contain;
   background-position: center;
   background-color: #f4f4f4;
+  transition: background-color 300ms linear;
+
+  &:hover,
+  &:focus {
+    background-color: #ffb342;
+    background-image: url(../images/mix-form/slider-right.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 0;
 }
 
 .customer_conteiner {
@@ -334,9 +360,4 @@
 .company_item {
   flex-basis: calc((100% - 8 * 50px) / 4);
   margin: 50px;
-}
-
-.slider_conteiner {
-  margin-left: 20px;
-  margin-right: 20px;
 }
