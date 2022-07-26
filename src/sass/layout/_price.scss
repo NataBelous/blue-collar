@@ -138,10 +138,44 @@
     letter-spacing: 0.36px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    position: relative;
+
+    &::before {
+      content: " ";
+      background-image: url(../images/price/vector-orange.svg);
+      position: absolute;
+      display: inline-block;
+      left: -30px;
+      width: 17px;
+      height: 17px;
+      // padding-left: 60px;
+      // margin-right: 13px;
+    
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: transparent;
+      background-size: contain;
+    }
 
     &:last-child {
       margin-bottom: 0;
     }
+  }
+
+  &__button {
+    width: 300px;
+    height: 68px;
+    background-color: $background-orange;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.36px;
+    color: $color-text-dark;
+    cursor: pointer;
+    margin-top: 55px;
+    
   }
 
   &__text-botton {
