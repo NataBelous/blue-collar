@@ -1,9 +1,6 @@
 .prise {
   background: $background-light-grey;
-  // width: 1440px;
-  // padding-left: 120px;
-  // padding-right: 120px;
-
+  
   &__label {
     width: 159px;
     height: 27px;
@@ -181,7 +178,7 @@
     
     &::before {
       content: " ";
-      background-image: url(../images/sprite.svg#icon-images-vector-dark);
+      background-image: url(../images/price/images-vector-price.svg);
       position: absolute;
       display: inline-block;
       left: -47px;
