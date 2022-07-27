@@ -1,0 +1,91 @@
+.footer-orange {
+  background-color: $background-orange;
+  padding-bottom: 0;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  &__top-name {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.4;
+    letter-spacing: 0.36px;
+    color: $color-text-dark;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 410px;
+  }
+
+  &__top-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.36px;
+    color: $color-text-dark;
+    margin-bottom: 52px;
+    width: 410px;
+  }
+
+  &__form {
+    display: flex;
+    margin-top: 32px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 104px;
+    }
+
+  &__input {
+    width: 389px;
+    height: 72px;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    border: 2px solid $color-text-white;
+    background-color: $background-orange;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.59;
+    letter-spacing: 0.36px;
+    color: $color-text-white;
+    align-items: center;
+  }
+
+  &__button {
+    width: 181px;
+    height: 68px;
+    background: $color-text-white;
+    border-radius: 0px;
+    border: 2px solid $color-text-white;
+    box-sizing: border-box;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1,59px;
+    letter-spacing: 0.36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px 48px;
+    color: $color-text-dark;
+    cursor: pointer;
+  }
+}
+
+   
+    
+    
+    
+     
