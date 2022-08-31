@@ -1,5 +1,5 @@
 .mix-form {
-  background-color: white;
+  background-color: #ffffff;
 
   .container {
     padding-left: 120px;
@@ -32,7 +32,7 @@
   letter-spacing: 0.36px;
   // text-transform: capitalize;
   color: $color-text-dark;
-  background-color: #f4f4f4;
+  background-color: $background-light-grey;
   padding: 0 20px;
   margin-bottom: 22px;
 
@@ -46,7 +46,6 @@
 
   &.client {
     width: 134px;
-    text-align: center;
   }
 }
 
@@ -65,7 +64,6 @@
   margin-bottom: 40px;
 
   &.company {
-    text-align: center;
     margin-bottom: 61px;
   }
 }
@@ -96,12 +94,12 @@
   background-image: url(../images/mix-form/slider-left.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #f4f4f4;
+  background-color: $background-light-grey;
   transition: background-color 300ms linear;
 
   &:hover,
   &:focus {
-    background-color: #ffb342;
+    background-color: $background-orange;
     background-image: url(../images/mix-form/slider-left.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -118,13 +116,13 @@
   background-image: url(../images/mix-form/slider-right.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #f4f4f4;
+  background-color: $background-light-grey;
   transition: background-color 300ms linear;
 
   &:hover,
   &:focus {
-    background-color: #ffb342;
-    // background-image: url(../images/mix-form/slider-right.png);
+    background-color: $background-orange;
+    background-image: url(../images/mix-form/slider-right.png);
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -142,7 +140,7 @@
   // background-image: url(../images/mix-form/slider-right.png);
   // background-repeat: no-repeat;
   // background-position: center;
-  // background-color: #f4f4f4;
+  // background-color: $background-light-grey;
   // transition: background-color 300ms linear;
 }
 
@@ -166,7 +164,7 @@
   font-size: 22px;
   line-height: 1.4;
   letter-spacing: 0.36px;
-  color: #1c2752;
+  color: $background-dark;
 }
 
 .customer_sity {
@@ -176,7 +174,7 @@
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.36px;
-  color: #7e7e7e;
+  color: $color-text-grey;
 }
 
 .container_quotes {
@@ -184,7 +182,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: #ffb342;
+  background-color: $background-orange;
   width: 55px;
   height: 55px;
   margin-left: auto;
@@ -205,13 +203,13 @@
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.36px;
-  color: #7e7e7e;
+  color: $color-text-grey;
 }
 
 .contact_conteiner {
   width: 591px;
   height: 330px;
-  background-color: #ffb342;
+  background-color: $background-orange;
   padding: 60px 68px 53px 40px;
 }
 
@@ -222,7 +220,7 @@
   font-size: 25px;
   line-height: 1.3;
   letter-spacing: 0.36px;
-  color: #1c2752;
+  color: $background-dark;
   margin-bottom: 13px;
 }
 
@@ -234,7 +232,7 @@
   line-height: 1.5;
   width: 483px;
   letter-spacing: 0.36px;
-  color: #1c2752;
+  color: $background-dark;
   margin-bottom: 24px;
 }
 
@@ -264,13 +262,13 @@
 
   &:hover,
   &:focus {
-    color: #7e7e7e;
+    color: $color-text-grey;
   }
 }
 
 .form_conteiner {
   padding: 70px 40px;
-  background-color: #f4f4f4;
+  background-color: $background-light-grey;
 }
 
 .modal_input {
@@ -285,7 +283,7 @@
   // font-size: 17px;
   // line-height: 1.59;
   // letter-spacing: 0.36px;
-  // color: #1c2752;
+  // color: $background-dark;
   transition: border-color 300ms linear;
   outline: none;
 
@@ -295,7 +293,7 @@
 
   &:hover,
   &:focus {
-    border-color: #ffb342;
+    border-color: $background-orange;
   }
 
   &::placeholder {
@@ -305,26 +303,27 @@
     font-size: 17px;
     line-height: 1.59;
     letter-spacing: 0.36px;
-    color: #1c2752;
+    color: $background-dark;
     transition: color 300ms linear;
   }
 
   &:hover::placeholder,
   &:focus::placeholder {
-    color: #ffb342;
+    color: $background-orange;
   }
 }
 
 .form_textarea {
   width: 484px;
-  min-height: 150px;
+  height: 150px;
   padding: 19px 0 0 44px;
   resize: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
   transition: border-color 300ms linear;
 
   &:hover,
   &:focus {
-    border-color: #ffb342;
+    border-color: $background-orange;
   }
 
   &::placeholder {
@@ -334,13 +333,13 @@
     font-size: 17px;
     line-height: 1.59;
     letter-spacing: 0.36px;
-    color: #1c2752;
+    color: $background-dark;
     transition: color 300ms linear;
   }
 
   &:hover::placeholder,
   &:focus::placeholder {
-    color: #ffb342;
+    color: $background-orange;
   }
 }
 
@@ -348,7 +347,7 @@
   margin-top: 35px;
   width: 100%;
   height: 68px;
-  background-color: #ffb342;
+  background-color: $background-orange;
   transition: color 300ms linear, background-color 300ms linear;
 
   &:hover,
@@ -358,7 +357,7 @@
   }
 }
 
-.company_top-text {
+.company_conteiner {
   text-align: center;
 }
 
