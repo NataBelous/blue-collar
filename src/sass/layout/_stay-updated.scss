@@ -1,0 +1,142 @@
+.stay-updated {
+  background-color: $color-text-white;
+  .container {
+    padding-left: 125px;
+    padding-right: 125px;
+  }
+}
+
+.title_conteiner {
+  text-align: center;
+}
+
+.customers_paragraf--stay {
+  width: 193px;
+}
+
+.news_list {
+  display: flex;
+}
+
+.news_item {
+  position: relative;
+}
+.news_item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.box_flex {
+  position: absolute;
+  display: flex;
+  left: 109px;
+  top: 330px;
+}
+
+.box_name {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  height: 62px;
+  padding: 21px 38px;
+  background-color: #ffc368;
+  border-radius: 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1, 5;
+
+  text-align: center;
+  letter-spacing: 0.3px;
+
+  color: $background-dark;
+
+  &--2 {
+    padding: 21px 25px;
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 62px;
+    background-color: #ffc368;
+    border-radius: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1, 5;
+
+    text-align: center;
+    letter-spacing: 0.3px;
+
+    color: $background-dark;
+  }
+}
+
+.box_date {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  height: 62px;
+  padding: 21px 25px;
+  background-color: $background-orange;
+  border-radius: 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1, 5;
+
+  text-align: center;
+  letter-spacing: 0.3px;
+
+  color: $background-dark;
+}
+
+.name_svg {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.date_svg {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.title_new {
+  width: 547px;
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.4;
+  letter-spacing: 0.36px;
+  color: $background-dark;
+  margin-top: 51px;
+  margin-bottom: 20px;
+}
+
+.paragraf_news {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.59;
+  letter-spacing: 0.36px;
+  color: $color-text-grey;
+  width: 561px;
+  margin-bottom: 17px;
+}
+
+.button_update {
+  background-color: $color-text-white;
+  border: none;
+  padding: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  color: $color-text-dark;
+  transition: color 250ms linear;
+
+  &:hover,
+  &.focus {
+    color: #ffc368;
+  }
+}
