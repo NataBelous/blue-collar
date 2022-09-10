@@ -1,0 +1,1 @@
+{"mappings":"mMAAAA,EAAE,WAAWC,MAAM,CACjBC,QAAQ,EACRC,MAAM,EACNC,aAAc","sources":["src/javascript/slider.js"],"sourcesContent":["$('.slider').slick({\n  arrows: true,\n  dots: false,\n  slidesToShow: 1,\n});\n"],"names":["$","slick","arrows","dots","slidesToShow"],"version":3,"file":"slider.77f7596e.js.map"}
