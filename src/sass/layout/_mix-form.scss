@@ -7,10 +7,14 @@
   }
 }
 
-// .container .customers {
-//   padding-left: 50px;
-//   padding-right: 50px;
-// }
+.slick-list {
+  overflow: hidden;
+}
+
+.container .customers {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 .container_client {
   display: flex;
@@ -79,9 +83,8 @@
   margin-bottom: 40px;
 }
 
-.slider_conteiner {
-  margin-left: 20px;
-  margin-right: 20px;
+.slick-list {
+  overflow: hidden;
 }
 
 .slick-prev {
